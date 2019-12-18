@@ -38,7 +38,7 @@ void loop()
     if((char)incomingByte=='3')
       String g =shock();
   }
-  if(lock==0&&getStat()=="true") {
+  if(lock==0&&getStat()=="false") {
     Serial.print("1");
     lock=1;
   }
